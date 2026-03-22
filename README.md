@@ -4,7 +4,7 @@
 
 A data collection, integration, and analysis project for building tourist tour packages across European destinations.
 
-**Business goal:** help tour operators and travelers find optimal tours (flight + hotel) based on various criteria — price, rating, location, and value for money.
+**Business goal:** help travelers find optimal tours (flight + hotel) based on various criteria — price, rating, location, and value for money.
 
 **Search parameters:**
 - Departure from Moscow (MOW)
