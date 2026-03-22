@@ -66,11 +66,11 @@ Flight prices from Moscow to European cities. **235 records, 17 features, 0 miss
 | `link` | str | Booking link | `/search/MOW2407LON1?...` |
 | `origin_airport` | str (IATA) | Departure airport | `SVO`, `VKO`, `DME` |
 | `destination_airport` | str (IATA) | Arrival airport | `LGW`, `FCO`, `BCN` |
-| `departure_at` | str (ISO 8601) | Departure date and time | `2026-07-24T01:00:00+03:00` |
-| `airline` | str (IATA) | Airline code | `SU`, `UT`, `DP` |
-| `destination` | str (IATA) | Destination city code | `LON`, `ROM`, `MIL` |
-| `return_at` | str (ISO 8601) | Return date | `2026-07-15T...` |
-| `origin` | str (IATA) | Origin city code | `MOW` (always) |
+| `departure_at` | str  | Departure date and time | `2026-07-24T01:00:00+03:00` |
+| `airline` | str  | Airline code | `SU`, `UT`, `DP` |
+| `destination` | str  | Destination city code | `LON`, `ROM`, `MIL` |
+| `return_at` | str  | Return date | `2026-07-15T...` |
+| `origin` | str  | Origin city code | `MOW` (always) |
 | `price` | int | Ticket price, EUR | 203–1234 |
 | `gate` | str | Booking agency | `Kupi.com`, `Aviakassa` |
 | `return_transfers` | int | Return flight transfers | 0–2 |
