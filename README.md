@@ -64,8 +64,8 @@ Flight prices from Moscow to European cities. **235 records, 17 features, 0 miss
 |---------|------|-------------|---------|
 | `flight_number` | int | Flight number | 2170 |
 | `link` | str | Booking link | `/search/MOW2407LON1?...` |
-| `origin_airport` | str (IATA) | Departure airport | `SVO`, `VKO`, `DME` |
-| `destination_airport` | str (IATA) | Arrival airport | `LGW`, `FCO`, `BCN` |
+| `origin_airport` | str  | Departure airport | `SVO`, `VKO`, `DME` |
+| `destination_airport` | str | Arrival airport | `LGW`, `FCO`, `BCN` |
 | `departure_at` | str  | Departure date and time | `2026-07-24T01:00:00+03:00` |
 | `airline` | str  | Airline code | `SU`, `UT`, `DP` |
 | `destination` | str  | Destination city code | `LON`, `ROM`, `MIL` |
